@@ -84,14 +84,14 @@
 ## 📁 项目结构
 
 ai-code-helper/ 
-  ├── src/main/java/.../ai/ # AI 核心模块 
-  │ ├── guardrail/ # 安全护栏 
-  │ ├── mcp/ # MCP 配置 
-  │ ├── rag/ # RAG 配置 
-  │ └── tools/ # 工具类 
-  ├── src/main/resources/ # 配置文件和资源 
-  ├── ai-code-helper-frontend/ # 前端项目 
-  └── pom.xml # Maven 配置
+├── src/main/java/.../ai/ # AI 核心模块 
+│ ├── guardrail/ # 安全护栏 
+│ ├── mcp/ # MCP 配置 
+│ ├── rag/ # RAG 配置 
+│ └── tools/ # 工具类 
+├── src/main/resources/ # 配置文件和资源 
+├── ai-code-helper-frontend/ # 前端项目 
+└── pom.xml # Maven 配置
 
 ## ⚖️ 法律提示
 
