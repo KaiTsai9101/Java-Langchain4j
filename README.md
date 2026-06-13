@@ -83,6 +83,7 @@
 
 ## 📁 项目结构
 
+```
 ai-code-helper/ 
 ├── src/main/java/.../ai/ # AI 核心模块 
 │ ├── guardrail/ # 安全护栏 
@@ -92,6 +93,7 @@ ai-code-helper/
 ├── src/main/resources/ # 配置文件和资源 
 ├── ai-code-helper-frontend/ # 前端项目 
 └── pom.xml # Maven 配置
+```
 
 ## ⚖️ 法律提示
 
