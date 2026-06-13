@@ -20,6 +20,8 @@ class AiCodeHelperServiceTest {
     private AiCodeHelperService aiCodeHelperServiceWithTools;
     @Resource
     private AiCodeHelperService aiCodeHelperServiceWithMcpTools;
+    @Resource
+    private AiCodeHelperService aiCodeHelperServiceWithLogs;
 
     @Test
     void chat() {
@@ -62,9 +64,15 @@ class AiCodeHelperServiceTest {
         System.out.println(result);
     }
 
-    @Test
+    @Test   // 会报错，因为有违禁词 "kill"
     void chatWithGuardrail() {
         String result = aiCodeHelperService.chat("kill the game");
+        System.out.println(result);
+    }
+
+    @Test
+    void chatWithLogs() {
+        String result = aiCodeHelperServiceWithLogs.chatWithLogs("success");
         System.out.println(result);
     }
 }
