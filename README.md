@@ -54,24 +54,27 @@
 1. **配置 API Key**
    
    编辑 `src/main/resources/application-local.yml`：
-   yml langchain4j: 
-    community: 
-      dashscope: 
-        chat-model: 
+```yaml langchain4j: 
+community: 
+   dashscope: 
+      chat-model: 
           api-key: <Your API Key here>
+```
 
 2. **编译并运行**
-   bash 
-   mvn clean install 
-   mvn spring-boot:run
+```bash 
+mvn clean install 
+mvn spring-boot:run
+```
    后端服务将在 `http://localhost:8081/api` 启动
 
 ### 前端启动
 
-  bash 
-  cd ai-code-helper-frontend 
-  npm install 
-  npm run dev
+```bash 
+cd ai-code-helper-frontend 
+npm install 
+npm run dev
+```
   前端应用将在 `http://localhost:3000` 启动
 
 ### 快速测试
